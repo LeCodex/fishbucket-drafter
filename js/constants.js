@@ -11,10 +11,10 @@ const minionCount = document.getElementById("inputMinion");
 const demonCount = document.getElementById("inputDemon");
 
 var rolesData = {};
-window.fetch("/roles.json").then(x => x.json()).then(x => rolesData = x);
+window.fetch("./roles.json").then(x => x.json()).then(x => rolesData = x);
 
 var jinxesData = {};
-window.fetch("/jinxes.json").then(x => x.json()).then(x => jinxesData = x);
+window.fetch("./jinxes.json").then(x => x.json()).then(x => jinxesData = x);
 
 var rolesCount = [];
-window.fetch("/rolesCount.json").then(x => x.json()).then(x => rolesCount = x);
+window.fetch("./rolesCount.json").then(x => x.json()).then(x => rolesCount = x);
