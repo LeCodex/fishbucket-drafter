@@ -1,0 +1,29 @@
+:root {
+  --color-bg: #111122;
+  --color-text-main: #DDDDDD;
+  --color-primary: #FFFF00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
+  
+  --townsfolk: #0000ff;
+  --outsider: #00ffff;
+  --minion: #ff8800;
+  --demon: #ff0000;
+  
+  --bg-townsfolk: #6666ff;
+  --bg-outsider: #66ffff;
+  --bg-minion: #ff8866;
+  --bg-demon: #ff3333;
+}
+
+/* body {
+  color: var(--color-text-main);
+  background-color: var(--color-bg);
+} */
+
+h1 {
+    text-decoration: underline;
+}

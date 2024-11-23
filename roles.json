@@ -1,0 +1,846 @@
+{
+  "washerwoman": {
+    "icon": "🧺",
+    "name": "Washerwoman",
+    "type": "townsfolk",
+    "ability": "You start knowing that 1 of 2 players is a particular Townsfolk."
+  },
+  "librarian": {
+    "icon": "📚",
+    "name": "Librarian",
+    "type": "townsfolk",
+    "ability": "You start knowing that 1 of 2 players is a particular Outsider."
+  },
+  "alchemist": {
+    "icon": "⚗️",
+    "name": "Alchemist",
+    "type": "townsfolk",
+    "ability": "You have a not-in-play Minion ability."
+  },
+  "amnesiac": {
+    "icon": "❓",
+    "name": "Amnesiac",
+    "type": "townsfolk",
+    "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are."
+  },
+  "artist": {
+    "icon": "🖌️",
+    "name": "Artist",
+    "type": "townsfolk",
+    "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question."
+  },
+  "atheist": {
+    "icon": "🪐",
+    "name": "Atheist",
+    "type": "townsfolk",
+    "ability": "The Storyteller can break the game rules, and if executed, good wins, even if you are dead. [No evil characters]",
+    "setup": true
+  },
+  "balloonist": {
+    "icon": "🎈",
+    "name": "Balloonist",
+    "type": "townsfolk",
+    "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]",
+    "setup": true
+  },
+  "bountyhunter": {
+    "icon": "👓",
+    "name": "Bounty Hunter",
+    "type": "townsfolk",
+    "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+    "setup": true
+  },
+  "bounty_hunter": { "alias": "bountyhunter" },
+  "cannibal": {
+    "icon": "🥧",
+    "name": "Cannibal",
+    "type": "townsfolk",
+    "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution." 
+  },
+  "chambermaid": {
+    "icon": "🧹",
+    "name": "Chambermaid",
+    "type": "townsfolk",
+    "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability."
+  },
+  "chef": {
+    "icon": "👨‍🍳",
+    "name": "Chef",
+    "type": "townsfolk",
+    "ability": "You start knowing how many pairs of evil players there are."
+  },
+  "choirboy": {
+    "icon": "🎵",
+    "name": "Choirboy",
+    "type": "townsfolk",
+    "ability": "If the Demon kills the King, you learn which player is the Demon. [+the King]",
+    "setup": true
+  },
+  "clockmaker": {
+    "icon": "🕒",
+    "name": "Clockmaker",
+    "type": "townsfolk",
+    "ability": "You start knowing how many steps from the Demon to its nearest Minion."
+  },
+  "courtier": {
+    "icon": "🍸",
+    "name": "Courtier",
+    "type": "townsfolk",
+    "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days." 
+  },
+  "cultleader": {
+    "icon": "🔻",
+    "name": "Cult Leader",
+    "type": "townsfolk",
+    "ability": "Each night, you become the alignment of an alive neighbour. If all good players choose to join your cult, your team wins."
+  },
+  "cult_leader": { "alias": "cultleader" },
+  "dreamer": {
+    "icon": "💤",
+    "name": "Dreamer",
+    "type": "townsfolk",
+    "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good & 1 evil character, 1 of which is correct."
+  },
+  "empath": {
+    "icon": "💙",
+    "name": "Empath",
+    "type": "townsfolk",
+    "ability": "Each night, you learn how many of your 2 alive neighbors are evil."
+  },
+  "engineer": {
+    "icon": "⚙️",
+    "name": "Engineer",
+    "type": "townsfolk",
+    "ability": "Once per game, at night, choose which Minions or which Demon is in play."
+  },
+  "exorcist": {
+    "icon": "💼",
+    "name": "Exorcist",
+    "type": "townsfolk",
+    "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight."
+  },
+  "farmer": {
+    "icon": "👩‍🌾",
+    "name": "Farmer",
+    "type": "townsfolk",
+    "ability": "If you die at night, an alive good player becomes a Farmer." 
+  },
+  "fisherman": {
+    "icon": "🐟",
+    "name": "Fisherman",
+    "type": "townsfolk",
+    "ability": "Once per game, during the day, visit the Storyteller for some advice to help your team win."
+  },
+  "flowergirl": {
+    "icon": "🌻",
+    "name": "Flowergirl",
+    "type": "townsfolk",
+    "ability": "Each night*, you learn if a Demon voted today."
+  },
+  "fool": {
+    "icon": "🃏",
+    "name": "Fool",
+    "type": "townsfolk",
+    "ability": "The 1st time you die, you don't."
+  },
+  "fortuneteller": {
+    "icon": "🔮",
+    "name": "Fortune Teller",
+    "type": "townsfolk",
+    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
+  },
+  "fortune_teller": { "alias": "fortuneteller" },
+  "gambler": {
+    "icon": "🎲",
+    "name": "Gambler",
+    "type": "townsfolk",
+    "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die."
+  },
+  "general": {
+    "icon": "🎖️",
+    "name": "General",
+    "type": "townsfolk",
+    "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither."
+  },
+  "gossip": {
+    "icon": "💬",
+    "name": "Gossip",
+    "type": "townsfolk",
+    "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies."
+  },
+  "grandmother": {
+    "icon": "👵",
+    "name": "Grandmother",
+    "type": "townsfolk",
+    "ability": "You start knowing a good player & their character. If the Demon kills them, you die too."
+  },
+  "huntsman": {
+    "icon": "⛰️",
+    "name": "Huntsman",
+    "type": "townsfolk",
+    "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
+    "setup": true
+  },
+  "innkeeper": {
+    "icon": "🏠",
+    "name": "Innkeeper",
+    "type": "townsfolk",
+    "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk."
+  },
+  "investigator": {
+    "icon": "🔎",
+    "name": "Investigator",
+    "type": "townsfolk",
+    "ability": "You start knowing that 1 of 2 players is a particular Minion."
+  },
+  "juggler": {
+    "icon": "🤹‍♀️",
+    "name": "Juggler",
+    "type": "townsfolk",
+    "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct."
+  },
+  "king": {
+    "icon": "⚜️",
+    "name": "King",
+    "type": "townsfolk",
+    "ability": "Each night, if the dead equal or outnumber the living, you learn 1 alive character. The Demon knows who you are."
+  },
+  "lycanthrope": {
+    "icon": "🐾",
+    "name": "Lycanthrope",
+    "type": "townsfolk",
+    "ability": "Each night*, choose an alive player. If good, they die & the Demon doesn’t kill tonight. One good player registers as evil."
+  },
+  "magician": {
+    "icon": "🐇",
+    "name": "Magician",
+    "type": "townsfolk",
+    "ability": "The Demon thinks you are a Minion. Minions think you are a Demon."
+  },
+  "mathematician": {
+    "icon": "🧮",
+    "name": "Mathematician",
+    "type": "townsfolk",
+    "ability": "Each night, you learn how many players' abilities worked abnormally (since dawn) due to another character's ability."
+  },
+  "mayor": {
+    "icon": "🏛️",
+    "name": "Mayor",
+    "type": "townsfolk",
+    "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead."
+  },
+  "minstrel": {
+    "icon": "🎻",
+    "name": "Minstrel",
+    "type": "townsfolk",
+    "ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow."
+  },
+  "monk": {
+    "icon": "✝️",
+    "name": "Monk",
+    "type": "townsfolk",
+    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
+  },
+  "nightwatchman": {
+    "icon": "💡",
+    "name": "Nightwatchman",
+    "type": "townsfolk",
+    "ability": "Once per game, at night, choose a player: they learn who you are."
+  },
+  "noble": {
+    "icon": "🏮",
+    "name": "Noble",
+    "type": "townsfolk",
+    "ability": "You start knowing 3 players, 1 and only 1 of which is evil."
+  },
+  "oracle": {
+    "icon": "👁️‍🗨️",
+    "name": "Oracle",
+    "type": "townsfolk",
+    "ability": "Each night*, you learn how many dead players are evil."
+  },
+  "pacifist": {
+    "icon": "🕊️",
+    "name": "Pacifist",
+    "type": "townsfolk",
+    "ability": "Executed good players might not die."
+  },
+  "philosopher": {
+    "icon": "🚬",
+    "name": "Philosopher",
+    "type": "townsfolk",
+    "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk."
+  },
+  "pixie": {
+    "icon": "🧸",
+    "name": "Pixie",
+    "type": "townsfolk",
+    "ability": "You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die."
+  },
+  "poppygrower": {
+    "icon": "🌷",
+    "name": "Poppy Grower",
+    "type": "townsfolk",
+    "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night."
+  },
+  "poppy_grower": { "alias": "poppygrower" },
+  "preacher": {
+    "icon": "📖",
+    "name": "Preacher",
+    "type": "townsfolk",
+    "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability."
+  },
+  "professor": {
+    "icon": "⚛️",
+    "name": "Professor",
+    "type": "townsfolk",
+    "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected."
+  },
+  "ravenkeeper": {
+    "icon": "🐦",
+    "name": "Ravenkeeper",
+    "type": "townsfolk",
+    "ability": "If you die at night, you are woken to choose a player: you learn their character."
+  },
+  "sage": {
+    "icon": "🕯️",
+    "name": "Sage",
+    "type": "townsfolk",
+    "ability": "If the Demon kills you, you learn that it is 1 of 2 players."
+  },
+  "sailor": {
+    "icon": "⚓",
+    "name": "Sailor",
+    "type": "townsfolk",
+    "ability": "Each night, choose an alive player: either you or they are drunk until dusk. You can't die."
+  },
+  "savant": {
+    "icon": "🦽",
+    "name": "Savant",
+    "type": "townsfolk",
+    "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false."
+  },
+  "seamstress": {
+    "icon": "✂️",
+    "name": "Seamstress",
+    "type": "townsfolk",
+    "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment."
+  },
+  "slayer": {
+    "icon": "🏹",
+    "name": "Slayer",
+    "type": "townsfolk",
+    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
+  },
+  "snakecharmer": {
+    "icon": "🐍",
+    "name": "Snake Charmer",
+    "type": "townsfolk",
+    "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned."
+  },
+  "snake_charmer": { "alias": "snakecharmer" },
+  "soldier": {
+    "icon": "🛡️",
+    "name": "Soldier",
+    "type": "townsfolk",
+    "ability": "You are safe from the Demon."
+  },
+  "tealady": {
+    "icon": "🍵",
+    "name": "Tea Lady",
+    "type": "townsfolk",
+    "ability": "If both your alive neighbors are good, they can't die."
+  },
+  "tea_lady": { "alias": "tealady" },
+  "towncrier": {
+    "icon": "🔔",
+    "name": "Town Crier",
+    "type": "townsfolk",
+    "ability": "Each night*, you learn if a Minion nominated today."
+  },
+  "town_crier": { "alias": "towncrier" },
+  "undertaker": {
+    "icon": "⚰️",
+    "name": "Undertaker",
+    "type": "townsfolk",
+    "ability": "Each night*, you learn which character died by execution today."
+  },
+  "virgin": {
+    "icon": "🔗",
+    "name": "Virgin",
+    "type": "townsfolk",
+    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately."
+  },
+  "knight": {
+    "icon": "🐴",
+    "name": "Knight",
+    "type": "townsfolk",
+    "ability": "You start knowing 2 players that are not the Demon."
+  },
+  "steward": {
+    "icon": "📜",
+    "name": "Steward",
+    "type": "townsfolk",
+    "ability": "You start knowing 1 good player."
+  },
+  "highpriestess": {
+    "icon": "🎐",
+    "name": "High Priestess",
+    "type": "townsfolk",
+    "ability": "Each night, learn which player the Storyteller believes you should talk to most."
+  },
+  "high_priestess": {"alias": "highpriestess"},
+  "shugenja": {
+    "icon": "⛩️",
+    "name": "Shugenja",
+    "type": "townsfolk",
+    "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary."
+  },
+  "villageidiot": {
+    "icon": "🍭",
+    "name": "Village Idiot",
+    "type": "townsfolk",
+    "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. One of the extras is drunk.]",
+    "setup": true
+  },
+  "village_idiot": {"alias": "villageidiot"},
+  "banshee": {
+    "icon": "😱",
+    "name": "Banshee",
+    "type": "townsfolk",
+    "ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination."
+  },
+  "alsaahir": {
+    "icon": "🔬",
+    "name": "Alsaahir",
+    "type": "townsfolk",
+    "ability": "Once per day, if you publicly guess which players are Minion(s) and which are Demon(s), good wins."
+  },
+  "acrobat": {
+    "icon": "🎆",
+    "name": "Acrobat",
+    "type": "townsfolk",
+    "ability": "Each night*, choose another player: if they are or become drunk or poisoned tonight, you die."
+  },
+  
+  "drunk": {
+    "icon": "🍺",
+    "name": "Drunk",
+    "type": "outsider",
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+    "setup": true
+  },
+  "saint": {
+    "icon": "👼",
+    "name": "Saint",
+    "type": "outsider",
+    "ability": "If you die by execution, your team loses."
+  },
+  "butler": {
+    "icon": "🛎️",
+    "name": "Butler",
+    "type": "outsider",
+    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too."
+  },
+  "recluse": {
+    "icon": "🪔",
+    "name": "Recluse",
+    "type": "outsider",
+    "ability": "You might register as evil & as a Minion or Demon, even if dead."
+  },
+  "barber": {
+    "icon": "💈",
+    "name": "Barber",
+    "type": "outsider",
+    "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters."
+  },
+  "sweetheart": {
+    "icon": "🎀",
+    "name": "Sweetheart",
+    "type": "outsider",
+    "ability": "When you die, 1 player is drunk from now on." 
+  },
+  "mutant": {
+    "icon": "🎪",
+    "name": "Mutant",
+    "type": "outsider",
+    "ability": "If you are \"mad\" about being an Outsider, you might be executed." 
+  },
+  "klutz": {
+    "icon": "🍌",
+    "name": "Klutz",
+    "type": "outsider",
+    "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses."
+  },
+  "goon": {
+    "icon": "🧐",
+    "name": "Goon",
+    "type": "outsider",
+    "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment."
+  },
+  "moonchild": {
+    "icon": "📿",
+    "name": "Moonchild",
+    "type": "outsider",
+    "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die."
+  },
+  "tinker": {
+    "icon": "🔧",
+    "name": "Tinker",
+    "type": "outsider",
+    "ability": "You might die at any time."
+  },
+  "lunatic": {
+    "icon": "💫",
+    "name": "Lunatic",
+    "type": "outsider",
+    "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+    "setup": true
+  },
+  "damsel": {
+    "icon": "👠",
+    "name": "Damsel",
+    "type": "outsider",
+    "ability": "All Minions know you are in play. If a Minion publicly guesses you (once), your team loses."
+  },
+  "golem": {
+    "icon": "🥌",
+    "name": "Golem",
+    "type": "outsider",
+    "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die."
+  },
+  "politician": {
+    "icon": "🏴",
+    "name": "Politician",
+    "type": "outsider",
+    "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead."
+  },
+  "puzzlemaster": {
+    "icon": "🧩",
+    "name": "Puzzlemaster",
+    "type": "outsider",
+    "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info."
+  },
+  "snitch": {
+    "icon": "🗣️",
+    "name": "Snitch",
+    "type": "outsider",
+    "ability": "Minions start knowing 3 not-in-play characters."
+  },
+  "heretic": {
+    "icon": "🧿",
+    "name": "Heretic",
+    "type": "outsider",
+    "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead."
+  },
+  "plaguedoctor": {
+    "icon": "🦠",
+    "name": "Plague Doctor",
+    "type": "outsider",
+    "ability": "If you die, the Storyteller gains a Minion ability."
+  },
+  "plague_doctor": { "alias": "plaguedoctor" },
+  "hatter": {
+    "icon": "🕴️",
+    "name": "Hatter",
+    "type": "outsider",
+    "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be."
+  },
+  "ogre": {
+    "icon": "👹",
+    "name": "Ogre",
+    "type": "outsider",
+    "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don’t know which) even if drunk or poisoned."
+  },
+  "zealot": {
+    "icon": "🔥",
+    "name": "Zealot",
+    "type": "outsider",
+    "ability": "If 5 or more players are alive, you must vote for every nomination."
+  },
+  
+  
+  "baron": {
+    "icon": "🎩",
+    "name": "Baron",
+    "type": "minion",
+    "ability": "There are extra Outsiders in play. [+2 Outsiders]",
+    "setup": true
+  },
+  "poisoner": {
+    "icon": "🧪",
+    "name": "Poisoner",
+    "type": "minion",
+    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day."
+  },
+  "scarletwoman": {
+    "icon": "💋",
+    "name": "Scarlet Woman",
+    "type": "minion",
+    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don't count)"
+  },
+  "scarlet_woman": { "alias": "scarletwoman" },
+  "spy": {
+    "icon": "🎭",
+    "name": "Spy",
+    "type": "minion",
+    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead."
+  },
+  "witch": {
+    "icon": "🧙‍♀️",
+    "name": "Witch",
+    "type": "minion",
+    "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability."
+  },
+  "eviltwin": {
+    "icon": "👬",
+    "name": "Evil Twin",
+    "type": "minion",
+    "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live."
+  },
+  "evil_twin": { "alias": "eviltwin" },
+  "pithag": {
+    "icon": "🥘",
+    "name": "Pit-Hag",
+    "type": "minion",
+    "ability": "Each night*, choose a player & a character they become (if not in play). If a Demon is made, deaths tonight are arbitrary."
+  },
+  "pit-hag": { "alias": "pithag" },
+  "pit_hag": { "alias": "pithag" },
+  "cerenovus": {
+    "icon": "🧠",
+    "name": "Cerenovus",
+    "type": "minion",
+    "ability": "Each night, choose a player & a good character: they are \"mad\" they are this character tomorrow, or might be executed."
+  },
+  "assassin": {
+    "icon": "🔪",
+    "name": "Assassin",
+    "type": "minion",
+    "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not."
+  },
+  "godfather": {
+    "icon": "🌹",
+    "name": "Godfather",
+    "type": "minion",
+    "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [-1 or +1 Outsider]",
+    "setup": true
+  },
+  "mastermind": {
+    "icon": "💺",
+    "name": "Mastermind",
+    "type": "minion",
+    "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses."
+  },
+  "devilsadvocate": {
+    "icon": "⚖️",
+    "name": "Devil's Advocate",
+    "type": "minion",
+    "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die."
+  },
+  "devils_advocate": { "alias": "devilsadvocate" },
+  "boomdandy": {
+    "icon": "💣",
+    "name": "Boomdandy",
+    "type": "minion",
+    "ability": "If you are executed, all but 3 players die. After a 10 to 1 countdown, the player with the most players pointing at them, dies."
+  },
+  "fearmonger": {
+    "icon": "💔",
+    "name": "Fearmonger",
+    "type": "minion",
+    "ability": "Each night, choose a player: if you nominate & execute them, their team loses. All players know if you choose a new player."
+  },
+  "marionette": {
+    "icon": "🎎",
+    "name": "Marionette",
+    "type": "minion",
+    "ability": "You think you are a good character, but you are not. The Demon knows who you are. [You neighbor the Demon]",
+    "setup": true
+  },
+  "mezepheles": {
+    "icon": "🖋️",
+    "name": "Mezepheles",
+    "type": "minion",
+    "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night."
+  },
+  "mephit": {"alias": "mezepheles"},
+  "psychopath": {
+    "icon": "🪓",
+    "name": "Psychopath",
+    "type": "minion",
+    "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo."
+  },
+  "widow": {
+    "icon": "🕷️",
+    "name": "Widow",
+    "type": "minion",
+    "ability": "On your first night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play."
+  },
+  "goblin": {
+    "icon": "👺",
+    "name": "Goblin",
+    "type": "minion",
+    "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins."
+  },
+  "organgrinder": {
+    "icon": "🐒",
+    "name": "Organ Grinder",
+    "type": "minion",
+    "ability": "All players keep their eyes closed when voting and the vote tally is secret. Each night, choose if you are drunk or not."
+  },
+  "organ_grinder": {"alias": "organgrinder"},
+  "vizier": {
+    "icon": "👑",
+    "name": "Vizier",
+    "type": "minion",
+    "ability": "All players know who you are. You can not die during the day. If good voted, you may choose to execute immediately."
+  },
+  "harpy": {
+    "icon": "🦅",
+    "name": "Harpy",
+    "type": "minion",
+    "ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or one or both might die."
+  },
+  "summoner": {
+    "icon": "⭕",
+    "name": "Summoner",
+    "type": "minion",
+    "ability": "You get 3 bluffs. On night 3, choose a player: they become an evil Demon of your choice. [No Demon]",
+    "setup": true
+  },
+  "boffin": {
+    "icon": "🌡️",
+    "name": "Boffin",
+    "type": "minion",
+    "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character’s ability. You both know which."
+  },
+  
+  "imp": {
+    "icon": "🔱",
+    "name": "Imp",
+    "type": "demon",
+    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
+  },
+  "fanggu": {
+    "icon": "👻",
+    "name": "Fang Gu",
+    "type": "demon",
+    "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+    "setup": true
+  },
+  "fang_gu": { "alias": "fanggu" },
+  "vigormortis": {
+    "icon": "🗝️",
+    "name": "Vigormortis",
+    "type": "demon",
+    "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbor. [-1 Outsider]",
+    "setup": true
+  },
+  "nodashii": {
+    "icon": "🐙",
+    "name": "No Dashii",
+    "type": "demon",
+    "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbors are poisoned."
+  },
+  "no_dashii": { "alias": "nodashii" },
+  "vortox": {
+    "icon": "🌀",
+    "name": "Vortox",
+    "type": "demon",
+    "ability": "Each night*, choose a player; they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins."
+  },
+  "po": {
+    "icon": "💥",
+    "name": "Po",
+    "type": "demon",
+    "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight."
+  },
+  "pukka": {
+    "icon": "🔺",
+    "name": "Pukka",
+    "type": "demon",
+    "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy."
+  },
+  "shabaloth": {
+    "icon": "🦷",
+    "name": "Shabaloth",
+    "type": "demon",
+    "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated."
+  },
+  "zombuul": {
+    "icon": "🧟‍♂️",
+    "name": "Zombuul",
+    "type": "demon",
+    "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead."
+  },
+  "alhadikhia": {
+    "icon": "🎓",
+    "name": "Al-Hadikhia",
+    "type": "demon",
+    "ability": "Each night*, choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die."
+  },
+  "al_hadikhia": { "alias": "alhadikhia" },
+  "al-hadikhia": { "alias": "alhadikhia" },
+  "riot": {
+    "icon": "💢",
+    "name": "Riot",
+    "type": "demon",
+    "ability": "Nominees die, but may nominate again immediately (on day 3, they must). After day 3, evil wins. [All Minions are Riot]",
+    "setup": true
+  },
+  "leviathan": {
+    "icon": "🦑",
+    "name": "Leviathan",
+    "type": "demon",
+    "ability": "If more than 1 good player is executed, evil wins. All players know you are in play. After day 5, evil wins."
+  },
+  "lleech": {
+    "icon": "🩸",
+    "name": "Lleech",
+    "type": "demon",
+    "ability": "Each night*, choose a player: they die. You start by choosing a player: they are poisoned. You die if & only if they are dead."
+  },
+  "legion": {
+    "icon": "🖐️",
+    "name": "Legion",
+    "type": "demon",
+    "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]",
+    "setup": true
+  },
+  "lilmonsta": {
+    "icon": "👶",
+    "name": "Lil' Monsta",
+    "type": "demon",
+    "ability": "Each night, Minions choose who babysits Lil' Monsta & 'is the Demon'. Each night*, a player might die. [+1 Minion]",
+    "setup": true
+  },
+  "lil_monsta": { "alias": "lilmonsta" },
+  "ojo": {
+    "icon": "👁️",
+    "name": "Ojo",
+    "type": "demon",
+    "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies."
+  },
+  "kazali": {
+    "icon": "➰",
+    "name": "Kazali",
+    "type": "demon",
+    "ability": "Each night*, choose a player: they die. [You choose which players are which Minions. -? to +? Outsiders]",
+    "setup": true
+  },
+  "yaggababble": {
+    "icon": "📣",
+    "name": "Yaggababble",
+    "type": "demon",
+    "ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die."
+  },
+  "lordoftyphon": {
+    "icon": "🐂",
+    "name": "Lord of Typhon",
+    "type": "demon",
+    "ability": "Each night*, choose a player: they die. [Evil characters are in a line. You are in the middle. +1 Minion. -? to +? Outsiders]",
+    "setup": true
+  },
+  "lord_of_typhon": { "alias": "lordoftyphon" }
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>BOTC Character Drafter</title>
+
+    <link rel="canonical" href="https://fishbucket-drafter.glitch.me/" />
+    <meta
+      name="description"
+      content="A tool to draft characters for games of BotC"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="BotC Character Draft Tool" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://fishbucket-drafter.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A tool to draft characters for games of BotC"
+    />
+    <meta name="twitter:card" content="summary" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container-fluid bg-primary text-center text-light border-bottom">
+      <h1 class="p-2">BOTC Character Draft Tool</h1>
+    </div>
+    
+    <div class="container-fluid text-center bg-light border-bottom">
+      <div class="p-4">
+        <div class="row mb-2">
+          <h4>Fill the number of roles each player will be drafting</h4>
+        </div>
+        <div class="row mb-2 text-light text-center">
+          <div class="col input-group flex-nowrap">
+            <input id="inputTownsfolk" type="number" min="1" value="1" class="form-control" aria-label="Townsfolk" aria-describedby="townsfolk-label">
+            <span class="input-group-text bg-primary text-light" id="townsfolk-label">Townsfolks</span>
+          </div>
+          <div class="col input-group flex-nowrap">
+            <input id="inputOutsider" type="number" min="1" value="1" class="form-control" aria-label="Outsider" aria-describedby="outsider-labelg">
+            <span class="input-group-text bg-primary text-light" id="outsider-label">Outsiders</span>
+          </div>
+          <div class="col input-group flex-nowrap">
+            <input id="inputMinion" type="number" min="1" value="1" class="form-control" aria-label="Minion" aria-describedby="minion-label">
+            <span class="input-group-text bg-danger text-light" id="minion-label">Minions</span>
+          </div>
+          <div class="col input-group flex-nowrap">
+            <input id="inputDemon" type="number" min="1" value="1" class="form-control" aria-label="Demon" aria-describedby="demon-label">
+            <span class="input-group-text bg-danger text-light" id="demon-label">Demons</span>
+          </div>
+        </div>
+        <form id="playerForm" class="row mb-2 needs-validation" novalidate>
+          <div class="col-9">
+            <input type="text" autocomplete="off" class="form-control" id="playerInput" placeholder="Name Role1 Role2 ..." required>
+            <div class="form-text">Player names can be multiple words. Character names must be in one word: remove all punctuations and spaces, or use underscores (Example: devils_advocate). Case does not matter.</div>
+            <div id="invalidFeedback" class="invalid-feedback">
+              Invalid input.
+            </div>
+          </div>
+          <div class="col-3">
+            <button type="submit" class="btn btn-success">Add new player</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    
+    <div class="container-fluid bg-light border-bottom">
+      <div class="row py-2 align-items-end justify-content-center">
+<!--         <h4 class="col-auto  mx-2">Automatic tools:</h4> -->
+        <button id="buttonComplete" type="button" class="col-auto btn btn-secondary mx-2"></button>
+        <button id="buttonReset" type="button" class="col-auto btn btn-dark mx-2">Reset assignments</button>
+        <button id="buttonDemon" type="button" class="col-auto btn btn-danger mx-2">Assign a Demon</button>
+        <button id="buttonMinion" type="button" class="col-auto btn btn-danger mx-2">Assign a Minion</button>
+        <button id="buttonTownsfolk" type="button" class="col-auto btn btn-primary mx-2">Assign a Townsfolk</button>
+        <button id="buttonOutsider" type="button" class="col-auto btn btn-primary mx-2">Assign an Outsider</button>
+        <button id="buttonExport" type="button" class="col-auto btn btn-success mx-2">Copy game state to clipboard</button>
+        <button id="buttonDownload" type="button" class="col-auto btn btn-success mx-2">Export as JSON file</button>
+      </div>
+      <div id="buttonFeedback" class="row pb-2 justify-content-center" hidden></div>
+    </div>
+    
+    <div class="container-xl">
+      <div id="playerGrid" class="row row-cols-auto justify-content-center">
+        
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+    <script src="js/constants.js" defer></script>
+    <script src="js/feedback.js" defer></script>
+    <script src="js/distribution.js" defer></script>
+    <script src="js/player.js" defer></script>
+    <script src="js/export.js" defer></script>
+  </body>
+</html>
