@@ -6,7 +6,7 @@
     "legion": ["engineer"],
     "spy": ["heretic"],
     "widow": ["heretic"],
-    "godfather": ["heretic"],
+    "godfather": ["heretic"]
   },
   "necessary": {
     "choirboy": "king",
