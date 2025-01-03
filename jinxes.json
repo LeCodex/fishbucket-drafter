@@ -3,14 +3,10 @@
     "lilmonsta": ["lunatic"]
   },
   "external": {
-    "alhadikhia": ["mastermind"],
-    "lilmonsta": ["magician"],
-    "legion": ["preacher", "engineer"],
+    "legion": ["engineer"],
     "spy": ["heretic"],
     "widow": ["heretic"],
     "godfather": ["heretic"],
-    "riot": ["exorcist", "minstrel", "flowergirl"],
-    "organgrinder": ["minstrel", "preacher"]
   },
   "necessary": {
     "choirboy": "king",
