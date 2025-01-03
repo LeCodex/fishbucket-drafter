@@ -722,6 +722,12 @@
     "ability": "On night X, all Townsfolk are poisoned until dusk. [X Outsiders]",
     "setup": true
   },
+  "wizard": {
+    "icon": "🧙",
+    "name": "Wizard",
+    "type": "minion",
+    "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature."
+  },
   
   "imp": {
     "icon": "🔱",
