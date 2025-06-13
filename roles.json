@@ -558,6 +558,12 @@
     "type": "outsider",
     "ability": "If 5 or more players are alive, you must vote for every nomination."
   },
+  "hermit": {
+    "icon": "❇️",
+    "name": "Hermit",
+    "type": "outsider",
+    "ability": "You have all Outsider abilities. [-0 or -1 Outsider]"
+  },
   
   
   "baron": {
