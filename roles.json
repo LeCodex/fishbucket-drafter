@@ -562,7 +562,8 @@
     "icon": "❇️",
     "name": "Hermit",
     "type": "outsider",
-    "ability": "You have all Outsider abilities. [-0 or -1 Outsider]"
+    "ability": "You have all Outsider abilities. [-0 or -1 Outsider]",
+    "setup": true
   },
   
   
