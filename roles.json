@@ -209,7 +209,7 @@
     "icon": "🐾",
     "name": "Lycanthrope",
     "type": "townsfolk",
-    "ability": "Each night*, choose an alive player. If good, they die & the Demon doesn’t kill tonight. One good player registers as evil."
+    "ability": "Each night*, choose an alive player. If good, they die & the Demon doesn't kill tonight. One good player registers as evil."
   },
   "magician": {
     "icon": "🐇",
@@ -422,6 +422,12 @@
     "type": "townsfolk",
     "ability": "Each night*, choose another player: if they are or become drunk or poisoned tonight, you die."
   },
+  "princess": {
+    "icon": "👸",
+    "name": "Princess",
+    "type": "townsfolk",
+    "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn't kill tonight."
+  },
   
   "drunk": {
     "icon": "🍺",
@@ -550,7 +556,7 @@
     "icon": "👹",
     "name": "Ogre",
     "type": "outsider",
-    "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don’t know which) even if drunk or poisoned."
+    "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned."
   },
   "zealot": {
     "icon": "🔥",
@@ -720,7 +726,7 @@
     "icon": "🌡️",
     "name": "Boffin",
     "type": "minion",
-    "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character’s ability. You both know which."
+    "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character's ability. You both know which."
   },
   "xaan": {
     "icon": "♾️",
