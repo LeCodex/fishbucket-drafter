@@ -741,6 +741,12 @@
     "type": "minion",
     "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature."
   },
+  "wraith": {
+    "icon": "👻",
+    "name": "Wraith",
+    "type": "minion",
+    "ability": "You may choose to open your eyes at night. You wake when other evil players do."
+  },
   
   "imp": {
     "icon": "🔱",
@@ -749,7 +755,7 @@
     "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
   },
   "fanggu": {
-    "icon": "👻",
+    "icon": "㊙️",
     "name": "Fang Gu",
     "type": "demon",
     "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
